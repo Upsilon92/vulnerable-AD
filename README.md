@@ -28,6 +28,9 @@ Create a vulnerable active directory that's allowing you to test most of active 
 
 ### Example
 ```powershell
+.\vulnad.ps1 100 "lpo-ad.lab"
+```
+```powershell
 # if you didn't install Active Directory yet , you can try 
 Install-windowsfeature AD-domain-services
 Import-Module ADDSDeployment
