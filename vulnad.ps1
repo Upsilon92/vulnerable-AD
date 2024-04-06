@@ -252,3 +252,5 @@ function Invoke-VulnAD {
     VulnAD-DisableSMBSigning
     Write-Good "SMB Signing Disabled"
 }
+
+Invoke-VulnAD -UsersLimit $args[0] -DomainName $args[1]
